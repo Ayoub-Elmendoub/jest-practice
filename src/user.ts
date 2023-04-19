@@ -1,5 +1,12 @@
+export interface UserDetails {
+  firstName: string;
+  lastName: string;
+}
+
 export default class User {
-  constructor(details) {
+  private firstName;
+  private lastName;
+  constructor(details: UserDetails) {
     const { firstName, lastName } = details;
     this.firstName = firstName;
     this.lastName = lastName;
