@@ -1,3 +1,10 @@
 export default class Model {
-  constructor() {}
+  constructor() {
+    this.$collection = []
+  }
+
+  record() {}
+  all() {}
+  find() {}
+  update() {}
 }
